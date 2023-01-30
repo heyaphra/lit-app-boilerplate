@@ -1,0 +1,28 @@
+{
+  "name": "ts-vite-lit-hello",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.es.js",
+  "exports": {
+    ".": "./dist/index.es.js"
+  },
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@lit-labs/router": "^0.1.1",
+    "lit": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "packageManager": "yarn@1.22.19"
+}
